@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -60,4 +61,68 @@
   
   a:hover:before {
     width: 100%;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    font-family: sans-serif;
+    /* height: 400px;
+    width: 300px; */
+    overflow: auto;
+  }
+  h1{
+      padding-top: 50px;
+      text-align: center;
+  }
+  header {
+    font-size: 0.75rem;
+    height: 80px;
+    background-color: white;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: 30px;
+  
+    position: relative;
+  }
+  
+ a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  a:hover{
+    color: gray;
+  }
+  
+  a::before {
+    content: " ";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 200ms;
+  }
+  
+  a:hover:before {
+    width: 100%;
+>>>>>>> e130d7e76101a047e8580739eecd9f2242038670
   }
