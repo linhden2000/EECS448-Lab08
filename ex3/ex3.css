@@ -1,0 +1,57 @@
+*{
+    background-color: grey;
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-size: 250%;
+    font-family: arial;
+    color: white;
+    margin: 5%; 
+    text-align: center;
+    background-image: url("./img/background.png");
+}
+
+img{
+    padding-top: 2%;
+    padding-left: 37%;
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    padding-top: 2%;
+    padding-left: 50%;
+    position: relative;
+}
+
+/* .links {
+    padding-right: 40%;
+} */
+
+.bio {
+      background: white;
+      margin: 2%;
+      color: white;
+}
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 150%;
+}
+.youtube {
+    text-align: left; 
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 35%;
+    margin-right: 21%;
+}
+
+.links a:hover{
+    color: white;
+  }
+  
